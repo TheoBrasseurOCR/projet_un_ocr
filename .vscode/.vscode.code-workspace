@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../css"
+		},
+		{
+			"path": "../images"
+		},
+		{
+			"path": "../projet_un_ocr"
+		}
+	],
+	"settings": {}
+}
