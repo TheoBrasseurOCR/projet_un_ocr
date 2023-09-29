@@ -271,9 +271,43 @@ p {
     margin-bottom: 5px;
 }
 
+/****** Footer ***********/
+.footer-bg section {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: auto;
+    background-color: var(--main-bg-color);
+    padding: 10px 30px 10px 30px;
+    margin-top: 5em;
+    box-sizing: border-box;
+}
 
+.foot-1, .foot-2, .foot-3 {
+    padding-right: 16em;
+}
 
+#h1-footer {
+    display: flex;
+    margin-right: 0.8em;
+    font-size: 110%;
+    font-weight: 800;
+}
 
+#h2-footer {
+    display: flex;
+    margin-right: 0.8em;
+    font-size: 100%;
+    font-weight: 400;
+}
+
+#h2-footer:hover {
+    text-decoration: underline;
+    display: flex;
+    margin-right: 0.8em;
+    font-size: 100%;
+    font-weight: 400;
+}
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
 /****** Media queries ***********/
