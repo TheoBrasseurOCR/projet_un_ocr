@@ -35,6 +35,11 @@ a {
     font-size: 22px;
 }
 
+.section-title-2 {
+    margin: 0;
+    font-size: 22px;
+}
+
 .card {
     background-color: white;
     border-radius: 20px;
@@ -186,6 +191,22 @@ button:hover {
     border-radius: 25% 25% 25% 25% / 80% 80% 80% 80%;
 }
 
+.activity-sec {
+    width: 100%;
+}
+
+.activity {
+    display: flex;
+    justify-content: space-between;
+}
+
+.activity section {
+    background-color: white;
+    border-radius: 20px;
+    padding: 30px;
+    margin-top: 2.5em;
+    box-sizing: border-box;
+}
 /****** Icones Informations ***********/
 p {
     display: inline;
