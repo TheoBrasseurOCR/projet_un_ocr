@@ -229,6 +229,8 @@ button:hover {
 
 .item img{
     display: block;
+    position: relative;
+    right: 50%;
     width: auto;
     max-height: 88%;
     object-fit: cover;
