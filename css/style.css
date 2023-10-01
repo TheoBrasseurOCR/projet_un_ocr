@@ -132,6 +132,12 @@ h1 {
     cursor: pointer;
 }
 
+#button-rechercher:hover {
+    color: #0065FC;
+    background-color: #DEEBFF;
+    border: 1px solid #DEEBFF;
+}
+
 .localisation {
     padding-top: 0.8em;
     padding-bottom: 0.8em;;
