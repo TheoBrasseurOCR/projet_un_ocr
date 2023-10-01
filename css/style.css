@@ -216,37 +216,47 @@ button:hover {
     flex-direction: row;
     align-items: center;
     flex-wrap: wrap;
+    row-gap: 5em;
 }
 
 .item {
     width: 17em;
-    height: 20em;
+    height: 23em;
     overflow: hidden;
-    border-radius: 10% 10% 0% 0% / 10% 10% 10% 10%;
+    border-radius: 10% 10% 10% 10% / 10% 10% 10% 10%;
+    box-shadow: 1px 3px 3px 1px #F2F2F2;
 }
 
 .item img{
+    display: block;
     width: auto;
+    max-height: 88%;
     object-fit: cover;
 }
 
-.item-name {
+.item-fp {
     width: 17em;
-    height: 3em;
+    height: 23em;
     overflow: hidden;
-    border-radius: 0% 0% 10% 10% / 50% 50% 50% 50%;
-    box-shadow: 0px 3px 0px #F2F2F2;
-}
-.item-name p {
-    display: inline-block;
-    font-weight: 800;
-    margin-top: 0.8em;
-    margin-left: 1em;
+    border-radius: 10% 10% 10% 10% / 10% 10% 10% 10%;
+    box-shadow: 1px 3px 3px 1px #F2F2F2;
 }
 
-.item:hover, .item-name:hover {
-    opacity: 0.5;
-    cursor: pointer;
+.item-fp img{
+    display: block;
+    width: 100%;
+    max-height: 88%;
+    object-fit: cover;
+}
+
+.item-txt {
+    display: inline-block;
+    font-weight: 800;
+    padding-left: 1em;
+    padding-top: 0.8em;
+}
+
+.item:hover, .item-fp:hover {
     opacity: 0.5;
 }
 /****** Icones Informations ***********/
