@@ -599,8 +599,12 @@ h1 {
 }
 /****** Hébergements et populaires ***********/
 .hebergements-and-populaires {    
+    border-radius: 0;
     flex-direction: column-reverse;
     gap: 0;  
+}
+.hebergements-and-populaires section {
+    border-radius: 0;
 }
 /****** Hébergements et populaires - Hebergements ***********/
 .hebergements {
@@ -617,6 +621,7 @@ h1 {
 }
 /****** Hébergements et populaires - Populaires ***********/
 .populaires {
+    border-radius: 0;
     padding: 1.87rem 1.25rem;
 }
 .populaires-cards {
