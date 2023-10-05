@@ -44,7 +44,10 @@ header {
 }
 #logo {
     width: 6rem;
-    padding: 1.15rem;
+    padding-top: 1.15rem;
+    padding-right: 1.15rem;
+    padding-bottom: 1.15rem;
+    padding-left: 0;
 }
 .m-nav {   
     display: flex;
